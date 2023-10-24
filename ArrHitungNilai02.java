@@ -13,7 +13,7 @@ public class ArrHitungNilai02 {
         jmlNilai = sc02.nextInt();
 
         for (int i = 0; i < jmlNilai; i++) {
-            System.out.print("Masukkan nilai mahasiswa ke-"+(i+1)+" : ");
+            System.out.print("Masukkan nilai mahasiswa ke-"+i+" : ");
             nilai[i] = sc02.nextInt();
             total += nilai[i];
         }
